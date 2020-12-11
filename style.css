@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(138, 170, 130);
+  color: aliceblue;
 }
 
 .logo {
@@ -13,7 +13,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(245, 195, 139);
+  color: aliceblue;
 }
 
 a:hover {
@@ -31,4 +31,54 @@ a:active {
 ul {
   list-style-type: none;
   padding: 0px;
+}
+
+.cards img {
+  max-height: 150px;
+}
+
+.textblock {
+  margin: 30px 30% 50px 1px;
+  background-color: rgba(94, 79, 77, 0.774);
+  padding: 10px;
+}
+
+.index {
+  background-image: url('index-background.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.fall {
+  background-image: url('fall-background.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.spring {
+  background-image: url('spring-background.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.winter {
+  background-image: url('winter-background.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.summer {
+  background-image: url('summer-background.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
